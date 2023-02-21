@@ -1,0 +1,146 @@
+<body>
+    <h1>Данные о планетах</h1>
+
+    <table>
+      <caption><ya-tr-span data-index="0-0" data-translated="true" data-source-lang="en" data-target-lang="ru" data-value="Data about the planets of our solar system (Planetary facts taken from " data-translation="Данные о планетах нашей солнечной системы (" data-ch="0" data-type="trSpan">Данные о планетах нашей солнечной системы (</ya-tr-span><a href="https://nssdc.gsfc.nasa.gov/planetary/factsheet/"><ya-tr-span data-index="0-0" data-translated="true" data-source-lang="en" data-target-lang="ru" data-value="Nasa's Planetary Fact Sheet - Metric" data-translation="планетарные факты, взятые из планетарного информационного бюллетеня НАСА - Metric" data-ch="0" data-type="trSpan">планетарные факты, взятые из планетарного информационного бюллетеня НАСА - Metric</ya-tr-span></a><ya-tr-span data-index="0-0" data-translated="true" data-source-lang="en" data-target-lang="ru" data-value=")." data-translation=")." data-ch="0" data-type="trSpan">).</ya-tr-span></caption>
+      <colgroup>
+        <col span="2">
+        <col style="border: 2px solid black">
+        <col span="9">
+      </colgroup>
+      <thead>
+        <tr>
+          <td colspan="2"></td>
+          <th scope="col"><ya-tr-span data-index="1-0" data-translated="true" data-source-lang="en" data-target-lang="ru" data-value="Name" data-translation="Имя" data-ch="0" data-type="trSpan">Имя</ya-tr-span></th>
+          <th scope="col"><ya-tr-span data-index="2-0" data-translated="true" data-source-lang="en" data-target-lang="ru" data-value="Mass (10" data-translation="Масса (10 " data-ch="0" data-type="trSpan">Масса (10 </ya-tr-span><sup><ya-tr-span data-index="2-0" data-translated="true" data-source-lang="en" data-target-lang="ru" data-value="24" data-translation="24" data-ch="0" data-type="trSpan">24</ya-tr-span></sup><ya-tr-span data-index="2-0" data-translated="true" data-source-lang="en" data-target-lang="ru" data-value="kg)" data-translation=" кг)" data-ch="0" data-type="trSpan"> кг)</ya-tr-span></th>
+          <th scope="col"><ya-tr-span data-index="3-0" data-translated="true" data-source-lang="en" data-target-lang="ru" data-value="Diameter (km)" data-translation="Диаметр (км)" data-ch="0" data-type="trSpan">Диаметр (км)</ya-tr-span></th>
+          <th scope="col"><ya-tr-span data-index="4-0" data-translated="true" data-source-lang="en" data-target-lang="ru" data-value="Density (kg/m" data-translation="Плотность (кг/" data-ch="0" data-type="trSpan">Плотность (кг/</ya-tr-span><sup><ya-tr-span data-index="4-0" data-translated="true" data-source-lang="en" data-target-lang="ru" data-value="3" data-translation="м3" data-ch="0" data-type="trSpan">м3</ya-tr-span></sup><ya-tr-span data-index="4-0" data-translated="true" data-source-lang="en" data-target-lang="ru" data-value=")" data-translation=")" data-ch="0" data-type="trSpan">)</ya-tr-span></th>
+          <th scope="col"><ya-tr-span data-index="5-0" data-translated="true" data-source-lang="en" data-target-lang="ru" data-value="Gravity (m/s" data-translation="Гравитация (м/" data-ch="0" data-type="trSpan">Гравитация (м/</ya-tr-span><sup><ya-tr-span data-index="5-0" data-translated="true" data-source-lang="en" data-target-lang="ru" data-value="2" data-translation="с2" data-ch="0" data-type="trSpan">с2</ya-tr-span></sup><ya-tr-span data-index="5-0" data-translated="true" data-source-lang="en" data-target-lang="ru" data-value=")" data-translation=")" data-ch="0" data-type="trSpan">)</ya-tr-span></th>
+          <th scope="col"><ya-tr-span data-index="6-0" data-translated="true" data-source-lang="en" data-target-lang="ru" data-value="Length of day (hours)" data-translation="Продолжительность дня (часов)" data-ch="0" data-type="trSpan">Продолжительность дня (часов)</ya-tr-span></th>
+          <th scope="col"><ya-tr-span data-index="7-0" data-translated="true" data-source-lang="en" data-target-lang="ru" data-value="Distance from Sun (10" data-translation="Расстояние от Солнца (10 " data-ch="0" data-type="trSpan">Расстояние от Солнца (10 </ya-tr-span><sup><ya-tr-span data-index="7-0" data-translated="true" data-source-lang="en" data-target-lang="ru" data-value="6" data-translation="6" data-ch="0" data-type="trSpan">6</ya-tr-span></sup><ya-tr-span data-index="7-0" data-translated="true" data-source-lang="en" data-target-lang="ru" data-value="km)" data-translation=" км)" data-ch="0" data-type="trSpan"> км)</ya-tr-span></th>
+          <th scope="col"><ya-tr-span data-index="8-0" data-translated="true" data-source-lang="en" data-target-lang="ru" data-value="Mean temperature (°C)" data-translation="Средняя температура (°C)" data-ch="0" data-type="trSpan">Средняя температура (°C)</ya-tr-span></th>
+          <th scope="col"><ya-tr-span data-index="9-0" data-translated="true" data-source-lang="en" data-target-lang="ru" data-value="Number of moons" data-translation="Количество лун" data-ch="0" data-type="trSpan">Количество лун</ya-tr-span></th>
+          <th scope="col"><ya-tr-span data-index="10-0" data-translated="true" data-source-lang="en" data-target-lang="ru" data-value="Notes" data-translation="Примечания" data-ch="0" data-type="trSpan">Примечания</ya-tr-span></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th rowspan="4" colspan="2" scope="rowgroup"><ya-tr-span data-index="11-0" data-translated="true" data-source-lang="en" data-target-lang="ru" data-value="Terrestrial planets" data-translation="Планеты земной группы" data-ch="0" data-type="trSpan">Планеты земной группы</ya-tr-span></th>
+          <th scope="row"><ya-tr-span data-index="12-0" data-translated="true" data-source-lang="en" data-target-lang="ru" data-value="Mercury" data-translation="Меркурий" data-ch="0" data-type="trSpan">Меркурий</ya-tr-span></th>
+          <td>0.330</td>
+          <td>4,879</td>
+          <td>5427</td>
+          <td>3.7</td>
+          <td>4222.6</td>
+          <td>57.9</td>
+          <td>167</td>
+          <td>0</td>
+          <td><ya-tr-span data-index="13-0" data-translated="true" data-source-lang="en" data-target-lang="ru" data-value="Closest to the Sun" data-translation="Ближайшая к Солнцу" data-ch="0" data-type="trSpan">Ближайшая к Солнцу</ya-tr-span></td>
+        </tr>
+        <tr>
+          <th scope="row"><ya-tr-span data-index="14-0" data-translated="true" data-source-lang="en" data-target-lang="ru" data-value="Venus" data-translation="Венера" data-ch="0" data-type="trSpan">Венера</ya-tr-span></th>
+          <td>4.87</td>
+          <td>12,104</td>
+          <td>5243</td>
+          <td>8.9</td>
+          <td>2802.0</td>
+          <td>108.2</td>
+          <td>464</td>
+          <td>0</td>
+          <td></td>
+        </tr>
+        <tr>
+          <th scope="row"><ya-tr-span data-index="15-0" data-translated="true" data-source-lang="en" data-target-lang="ru" data-value="Earth" data-translation="Земля" data-ch="0" data-type="trSpan">Земля</ya-tr-span></th>
+          <td>5.97</td>
+          <td>12,756</td>
+          <td>5514</td>
+          <td>9.8</td>
+          <td>24.0</td>
+          <td>149.6</td>
+          <td>15</td>
+          <td>1</td>
+          <td><ya-tr-span data-index="16-0" data-translated="true" data-source-lang="en" data-target-lang="ru" data-value="Our world" data-translation="Наш мир" data-ch="0" data-type="trSpan">Наш мир</ya-tr-span></td>
+        </tr>
+        <tr>
+          <th scope="row"><ya-tr-span data-index="17-0" data-translated="true" data-source-lang="en" data-target-lang="ru" data-value="Mars" data-translation="Марс" data-ch="0" data-type="trSpan">Марс</ya-tr-span></th>
+          <td>0.642</td>
+          <td>6,792</td>
+          <td>3933</td>
+          <td>3.7</td>
+          <td>24.7</td>
+          <td>227.9</td>
+          <td>-65</td>
+          <td>2</td>
+          <td><ya-tr-span data-index="18-0" data-translated="true" data-source-lang="en" data-target-lang="ru" data-value="The red planet" data-translation="Красная планета" data-ch="0" data-type="trSpan">Красная планета</ya-tr-span></td>
+        </tr>
+        <tr>
+          <th rowspan="4" scope="rowgroup"><ya-tr-span data-index="19-0" data-translated="true" data-source-lang="en" data-target-lang="ru" data-value="Jovian planets" data-translation="Планеты Юпитера" data-ch="0" data-type="trSpan">Планеты Юпитера</ya-tr-span></th>
+          <th rowspan="2" scope="rowgroup"><ya-tr-span data-index="20-0" data-translated="true" data-source-lang="en" data-target-lang="ru" data-value="Gas giants" data-translation="Газовые гиганты" data-ch="0" data-type="trSpan">Газовые гиганты</ya-tr-span></th>
+          <th scope="row"><ya-tr-span data-index="21-0" data-translated="true" data-source-lang="en" data-target-lang="ru" data-value="Jupiter" data-translation="Юпитер" data-ch="0" data-type="trSpan">Юпитер</ya-tr-span></th>
+          <td>1898</td>
+          <td>142,984</td>
+          <td>1326</td>
+          <td>23.1</td>
+          <td>9.9</td>
+          <td>778.6</td>
+          <td>-110</td>
+          <td>67</td>
+          <td><ya-tr-span data-index="22-0" data-translated="true" data-source-lang="en" data-target-lang="ru" data-value="The largest planet" data-translation="Самая большая планета" data-ch="0" data-type="trSpan">Самая большая планета</ya-tr-span></td>
+        </tr>
+        <tr>
+          <th scope="row"><ya-tr-span data-index="23-0" data-translated="true" data-source-lang="en" data-target-lang="ru" data-value="Saturn" data-translation="Сатурн" data-ch="0" data-type="trSpan">Сатурн</ya-tr-span></th>
+          <td>568</td>
+          <td>120,536</td>
+          <td>687</td>
+          <td>9.0</td>
+          <td>10.7</td>
+          <td>1433.5</td>
+          <td>-140</td>
+          <td>62</td>
+          <td></td>
+        </tr>
+        <tr>
+          <th rowspan="2" scope="rowgroup"><ya-tr-span data-index="24-0" data-translated="true" data-source-lang="en" data-target-lang="ru" data-value="Ice giants" data-translation="Ледяные гиганты" data-ch="0" data-type="trSpan">Ледяные гиганты</ya-tr-span></th>
+          <th scope="row"><ya-tr-span data-index="25-0" data-translated="true" data-source-lang="en" data-target-lang="ru" data-value="Uranus" data-translation="Уран" data-ch="0" data-type="trSpan">Уран</ya-tr-span></th>
+          <td>86.8</td>
+          <td>51,118</td>
+          <td>1271</td>
+          <td>8.7</td>
+          <td>17.2</td>
+          <td>2872.5</td>
+          <td>-195</td>
+          <td>27</td>
+          <td></td>
+        </tr>
+        <tr>
+          <th scope="row"><ya-tr-span data-index="26-0" data-translated="true" data-source-lang="en" data-target-lang="ru" data-value="Neptune" data-translation="Нептун" data-ch="0" data-type="trSpan">Нептун</ya-tr-span></th>
+          <td>102</td>
+          <td>49,528</td>
+          <td>1638</td>
+          <td>11.0</td>
+          <td>16.1</td>
+          <td>4495.1</td>
+          <td>-200</td>
+          <td>14</td>
+          <td></td>
+        </tr>
+        <tr>
+          <th colspan="2" scope="row"><ya-tr-span data-index="27-0" data-translated="true" data-source-lang="en" data-target-lang="ru" data-value="Dwarf planets" data-translation="Карликовые планеты" data-ch="0" data-type="trSpan">Карликовые планеты</ya-tr-span></th>
+          <th scope="row"><ya-tr-span data-index="28-0" data-translated="true" data-source-lang="en" data-target-lang="ru" data-value="Pluto" data-translation="Плутон" data-ch="0" data-type="trSpan">Плутон</ya-tr-span></th>
+          <td>0.0146</td>
+          <td>2,370</td>
+          <td>2095</td>
+          <td>0.7</td>
+          <td>153.3</td>
+          <td>5906.4</td>
+          <td>-225</td>
+          <td>5</td>
+          <td><ya-tr-span data-index="29-0" data-translated="true" data-source-lang="en" data-target-lang="ru" data-value="Declassified as a planet in 2006, but this " data-translation="Рассекречена как планета в 2006 году, но это " data-ch="0" data-type="trSpan">Рассекречена как планета в 2006 году, но это </ya-tr-span><a href="https://www.usatoday.com/story/tech/2014/10/02/pluto-planet-solar-system/16578959/"><ya-tr-span data-index="29-0" data-translated="true" data-source-lang="en" data-target-lang="ru" data-value="remains controversial" data-translation="остается спорным" data-ch="0" data-type="trSpan">остается спорным</ya-tr-span></a><ya-tr-span data-index="29-0" data-translated="true" data-source-lang="en" data-target-lang="ru" data-value="." data-translation="." data-ch="0" data-type="trSpan">.</ya-tr-span></td>
+        </tr>
+      </tbody>
+    </table>
+
+
+  
+
+<div id="tr-popup" class="tr-popup" translate="no" data-hidden="true" data-invalid="true" data-disabled="false" lang="ru"><div class="tr-popup__block"><span class="tr-popup__title_original">Оригинальный текст:</span> <span class="tr-popup__value"></span></div><div class="tr-popup__block tr-popup__block_a"><span class="tr-popup__link tr-popup__link_suggest" data-action="expand">Предложить перевод</span><a href="https://translate.yandex.ru" class="tr-popup__link tr-popup__link_service" target="_blank" data-action="navigate"><span class="tr-popup__logo tr-popup__logo_company"></span><span class="tr-popup__logo tr-popup__logo_service"></span></a></div><div class="tr-popup__block tr-popup__block_b"><textarea class="tr-popup__input" spellcheck="false" autocapitalize="off" autocorrect="off" autocomplete="off" maxlength="1000"></textarea><div class="tr-popup__block tr-popup__block_submit"><span role="button" class="tr-popup__button tr-popup__button_submit" data-action="send">Отправить</span></div><div class="tr-popup__overlay tr-popup__overlay_submitted">Спасибо, перевод отправлен</div></div><span role="button" class="tr-popup__button tr-popup__button_close" data-action="clickClose"></span><span role="button" class="tr-popup__button tr-popup__button_menu" data-action="clickMenu"><span class="tr-popup__menu" data-action="disablePopup">Отключить подсказку с оригинальным текстом</span></span><span class="tr-popup__arrow"></span></div></body>
